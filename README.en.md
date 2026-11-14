@@ -35,12 +35,32 @@ Samples made with values from a real car's log.
 2. Open the file and install it (allow installing from this source if Android asks).
 3. Plug the adapter into the car's OBD2 port, choose it in the app and connect.
 
+## Not yet tested on a real car
+
+This version (0.1.0) is a test release that has not yet been run on a real car.
+How the values are read was built from real-car logs collected with the survey app (a 2018 40 kWh car), and the calculations were checked against those logs.
+The following have not been checked on a real car yet:
+
+- Running this app connected to a real car (including how fast the values update and long connections)
+- The display during quick charging
+- The 62 kWh (e+)
+- Model years and grades other than the 2018 40 kWh
+- Driving and charging records, trips and alerts working correctly on a real car
+
+Please send anything you notice through the report form in the app's settings.
+
 ## Notes
 
 - The app sends read commands only. It never sends commands that change the car's settings.
-- Use at your own risk. Do not operate the app while driving.
-- Quick charging and the 62 kWh (e+) are still being checked.
+- Do not operate the app while driving.
 - The survey app (ZE1 Monitor Survey) is a separate app; both can be installed at the same time.
+
+## Disclaimer
+
+- This is an unofficial app made by an individual. It is not affiliated with Nissan or its related companies in any way.
+- The values shown are estimates based on what is read from the car, and their accuracy is not guaranteed. Rely on the car's own meter and dealer inspections when judging the car's condition.
+- The author accepts no responsibility for any damage caused by using this app or an OBD2 adapter (including vehicle faults, a flat 12 V battery or accidents). Use at your own risk.
+- Leaving an OBD2 adapter plugged in can drain the 12 V battery. Unplug it when not in use.
 
 ## References
 
