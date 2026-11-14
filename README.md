@@ -12,6 +12,18 @@
 - 充電中の表示、トリップ、エコ運転チャレンジ、キリ番、しきい値の通知
 - 走行と充電の記録（CSV）、デモモード、文字の大きさ、日本語と英語
 
+## 画面
+
+実車の記録の値を使った見本です。
+
+| 走行中 | 回生中 |
+|---|---|
+| ![走行中](screenshots/home_driving.jpg) | ![回生中](screenshots/home_regen.jpg) |
+| **充電中** | **電池画面** |
+| ![充電中](screenshots/home_charging.jpg) | ![電池画面](screenshots/battery.jpg) |
+
+![電池温度](screenshots/battery_temperatures.jpg)
+
 ## 必要なもの
 
 - Android 8.0 以上のスマートフォン、タブレット、カーナビ（Android）
