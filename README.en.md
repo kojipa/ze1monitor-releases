@@ -12,6 +12,18 @@ This is an unofficial app made by an individual. It is not affiliated with Nissa
 - Charging view, trips, eco-driving challenge, milestones, threshold alerts
 - Driving and charging records (CSV), demo mode, text size, Japanese and English
 
+## Screens
+
+Samples made with values from a real car's log.
+
+| Driving | Regen |
+|---|---|
+| ![Driving](screenshots/home_driving.jpg) | ![Regen](screenshots/home_regen.jpg) |
+| **Charging** | **Battery** |
+| ![Charging](screenshots/home_charging.jpg) | ![Battery](screenshots/battery.jpg) |
+
+![Battery temperature](screenshots/battery_temperatures.jpg)
+
 ## Requirements
 
 - A phone, tablet or car head unit with Android 8.0 or later
