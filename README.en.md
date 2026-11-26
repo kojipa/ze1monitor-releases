@@ -7,7 +7,7 @@ This is an unofficial app made by an individual. It is not affiliated with Nissa
 
 ## Features
 
-- Home: actual SOC, power (including regen), pack voltage, speed, range, battery temperature, 12 V battery, outside temperature, odometer (the actual SOC is not the meter %; it is about 95% when full)
+- Home: actual SOC, power (including regen), pack voltage, speed, range, battery temperature, 12 V battery, outside temperature, odometer, ECO and e-Pedal on/off (the actual SOC is not the meter %; it is about 95% when full)
 - Battery: SOH, capacity, the 96 cell voltages, battery temperatures, quick/normal charge counts, records and trends
 - Charging view, trips, eco-driving challenge, milestones, threshold alerts
 - Driving and charging records (CSV), demo mode, text size, Japanese and English
@@ -31,7 +31,7 @@ Samples made with values from a real car's log.
 
 ## Install
 
-1. Download `ze1monitor-0.1.1.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
+1. Download `ze1monitor-0.1.2.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
 2. Open the file and install it (allow installing from this source if Android asks).
 3. Plug the adapter into the car's OBD2 port, choose it in the app and connect.
 
