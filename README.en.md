@@ -9,8 +9,10 @@ This is an unofficial app made by an individual. It is not affiliated with Nissa
 
 - Home: actual SOC, power (including regen), pack voltage, speed, range, battery temperature, 12 V battery, outside temperature, odometer, ECO and e-Pedal on/off (the actual SOC is not the meter %; it is about 95% when full)
 - Battery: SOH, capacity, the 96 cell voltages, battery temperatures, quick/normal charge counts, records and trends
-- Charging view, trips, eco-driving challenge, milestones, threshold alerts
-- Driving and charging records (CSV), demo mode, text size, Japanese and English
+- Charging view, trips, eco-driving challenge, milestones, threshold alerts (can also be spoken)
+- Efficiency log by outside temperature
+- Driving and charging records (CSV), demo mode, text size, Japanese, English and Traditional Chinese
+- **ZESP3 minutes left (v0.1.3 and later, Japan only)**: ZESP3 is Nissan's charging plan in Japan. Turn on **ZESP3 minutes left** in Settings and save your Nissan ID and password, and the app shows the free fast and normal charging minutes left this month (off by default). After a fast charge the minutes are read again automatically. **ZESP READER** is built in with the author's permission. This is unofficial and may stop working if the site changes.
 
 ## Screens
 
@@ -31,7 +33,7 @@ Samples made with values from a real car's log.
 
 ## Install
 
-1. Download `ze1monitor-0.1.2.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
+1. Download `ze1monitor-0.1.3.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
 2. Open the file and install it (allow installing from this source if Android asks).
 3. Plug the adapter into the car's OBD2 port, choose it in the app and connect.
 
@@ -42,6 +44,7 @@ The following have not been checked on a real car yet:
 
 - The display during quick charging
 - The 62 kWh (e+)
+- ZESP3 minutes left
 - Model years and grades other than the 2018 40 kWh
 - Driving and charging records, trips and alerts working correctly on a real car
 
@@ -51,6 +54,7 @@ Please send anything you notice through the report form in the app's settings.
 
 - The app sends read commands only. It never sends commands that change the car's settings.
 - Do not operate the app while driving.
+- **Only when ZESP3 minutes left is on**, the app connects to the ZESP3 and Nissan ID sites to read the minutes left. Your Nissan ID and password are stored encrypted on the device and used only to sign in. Turning the feature off deletes them. No vehicle data is sent.
 - The survey app (ZE1 Monitor Survey) is a separate app; both can be installed at the same time.
 
 ## Disclaimer
