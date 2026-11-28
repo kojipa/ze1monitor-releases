@@ -33,16 +33,15 @@ Samples made with values from a real car's log.
 
 ## Install
 
-1. Download `ze1monitor-0.1.3.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
+1. Download `ze1monitor-0.1.4.apk` from [Releases](https://github.com/kojipa/ze1monitor-releases/releases).
 2. Open the file and install it (allow installing from this source if Android asks).
 3. Plug the adapter into the car's OBD2 port, choose it in the app and connect.
 
 ## Not yet tested on a real car
 
-This app is a test release. With 0.1.0 we confirmed that it connects to a real car (a 2018 40 kWh) and shows the values.
+This app is a test release. With 0.1.0 we confirmed that it connects to a real car (a 2018 40 kWh) and shows the values. The display during quick charging has also been checked on a real car (with the power on).
 The following have not been checked on a real car yet:
 
-- The display during quick charging
 - The 62 kWh (e+)
 - ZESP3 minutes left
 - Model years and grades other than the 2018 40 kWh
@@ -54,6 +53,7 @@ Please send anything you notice through the report form in the app's settings.
 
 - The app sends read commands only. It never sends commands that change the car's settings.
 - Do not operate the app while driving.
+- While charging with the power off, the battery values (SOC, current, voltage, temperature) stop after a few minutes (the car's behaviour). Keep the power on to watch them while charging.
 - **Only when ZESP3 minutes left is on**, the app connects to the ZESP3 and Nissan ID sites to read the minutes left. Your Nissan ID and password are stored encrypted on the device and used only to sign in. Turning the feature off deletes them. No vehicle data is sent.
 - The survey app (ZE1 Monitor Survey) is a separate app; both can be installed at the same time.
 
